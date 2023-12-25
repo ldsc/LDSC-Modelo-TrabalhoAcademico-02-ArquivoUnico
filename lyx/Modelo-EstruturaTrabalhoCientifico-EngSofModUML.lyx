@@ -1,0 +1,963 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extreport
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+%\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+%Adicionado et all em italico
+%\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0, abnt-etal-text=it]{abntcite}
+%\usepackage {helvet}
+\renewcommand {\familydefault}{\sfdefault}
+%\usepackage[abnt-etal-text=emph,......]{abntcite} ou \usepackage[abnt-etal-text=it,......]{abntcite} 
+
+\usepackage{color}
+\definecolor{azulclaro}{rgb}{0.6,1,1}%   rgb color model
+% Informa que vai usar o pacote listings, 
+% disponibilizado em /usr/share/texmf/doc/latex/styles/listings.dvi
+\usepackage{listings}
+\end_preamble
+\options normaltoc, sumariocompleto
+\use_default_options false
+\maintain_unincluded_children false
+\language brazilian
+\language_package auto
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Título da Monografia - Dissertação - Tese"
+\pdf_author "Nome do Autor"
+\pdf_subject "Descrever assunto"
+\pdf_keywords "Copiar do resumo"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref page
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\size large
+UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE
+\begin_inset Newline newline
+\end_inset
+
+CENTRO DE CIÊNCIA E TECNOLOGIA
+\begin_inset Newline newline
+\end_inset
+
+LABORATÓRIO DE ENGENHARIA E EXPLORAÇÃO DE PETRÓLEO
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Engenharia de Software e Modelagem UML uma Introdução
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+NOME COMPLETO DO AUTOR(A)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 6cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+MACAÉ - RJ
+\begin_inset Newline newline
+\end_inset
+
+Março - 2024
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introdução
+\end_layout
+
+\begin_layout Standard
+No presente trabalho desenvolve-se um estudo ...blablabla...
+\end_layout
+
+\begin_layout Subsection
+Escopo do Problema
+\end_layout
+
+\begin_layout Itemize
+[Definir o escopo do problema, a ideia geral.
+ Acentuar a sua importância.
+ Situá-lo nos aspectos econômicos e sociais.]
+\end_layout
+
+\begin_layout Itemize
+[Nesta seção podem entrar uma e no máximo duas figuras, bem ilustrativas
+ (quase leigas).]
+\end_layout
+
+\begin_layout Subsection
+Objetivos
+\end_layout
+
+\begin_layout Standard
+Os objetivos deste trabalho são:
+\end_layout
+
+\begin_layout Itemize
+Objetivo geral:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+[.....descrever de forma clara, direta, objetiva, o objetivo geral].
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Objetivos específicos:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+[.....descrever de forma clara, direta, objetiva, cada objetivo específico].
+\end_layout
+
+\begin_layout Itemize
+[.....descrever de forma clara, direta, objetiva, cada objetivo específico].
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introdução a Engenharia de Software
+\end_layout
+
+\begin_layout Standard
+....[Aqui você deve desenvolver o tema do trabalho.]
+\end_layout
+
+\begin_layout Itemize
+[Organizar os conceitos com início meio e fim.
+ ]
+\end_layout
+
+\begin_layout Itemize
+[Cada seção/parágrafo deve apontar para o próximo; deve fazer sentido lógico
+ e estar relacionado ao escopo do trabalho.]
+\end_layout
+
+\begin_layout Itemize
+[Ser o mais claro possível, não ter medo de detalhar.]
+\end_layout
+
+\begin_layout Itemize
+[Todos os trabalhos/artigos/livros de terceiros devem ser referenciados.
+ ]
+\end_layout
+
+\begin_layout Itemize
+[Todas as figuras, tabelas devem ser referenciadas (referencia cruzada).
+ Nenhuma tabela ou figura pode simplesmente aparecer no meio do texto, todas,
+ sem exceção, devem ser citadas e comentadas!]
+\end_layout
+
+\begin_layout Itemize
+[Equações: ao longo do desenvolvimento todas as variáveis utilizadas devem
+ ser definidas (usar SI).
+ ]
+\end_layout
+
+\begin_layout Itemize
+[Deixar claro, ao longo do texto, as inovações desenvolvidas.
+ ]
+\end_layout
+
+\begin_layout Itemize
+[Ou seja, entram citações de trabalhos tecnológicos e científicos desenvolvidos
+ por terceiros - os outros.
+ Principalmente artigos científicos.
+ ]
+\end_layout
+
+\begin_layout Itemize
+[Lembre-se, cada seção deve iniciar com uma breve descrição do que vai ser
+ visto.
+ A ideia é ajudar o leitor a se situar.]
+\end_layout
+
+\begin_layout Itemize
+[o que já foi feito, e crítica aos trabalhos existentes destacando a necessidade
+ de seu trabalho.]
+\end_layout
+
+\begin_layout Itemize
+[na revisão bibliográfica entram todos os conceitos matemáticos, computacionais;
+ que você vai usar e que estão diretamente relacionados ao problema.]
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Section
+Modelo UP 
+\end_layout
+
+\begin_layout Section
+Modelo FDD 
+\end_layout
+
+\begin_layout Section
+Scrun
+\end_layout
+
+\begin_layout Section
+Introdução a Modelagem UML 
+\end_layout
+
+\begin_layout Section
+Diagramas da UML 
+\end_layout
+
+\begin_layout Section
+O Software Umbrello
+\end_layout
+
+\begin_layout Standard
+Pode-se falar dos diagramas UML e do Umbrello junto, na mesma seção; mas
+ tem de incluir diagramas feitos por vocês;
+\end_layout
+
+\begin_layout Section
+Exemplo Aplicado a Engenharia (de preferência de Petróleo!) 
+\end_layout
+
+\begin_layout Section
+Resultados e Análises
+\end_layout
+
+\begin_layout Standard
+Apresenta-se nesta seção ...
+\end_layout
+
+\begin_layout Itemize
+[coloque aqui os principais resultados do trabalho]
+\end_layout
+
+\begin_layout Itemize
+[não pode filtrar os dados ruins! o trabalho tem que ser completo, com notícias
+ boas e ruins!]
+\end_layout
+
+\begin_layout Itemize
+Segundo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "SL-latex-companion"
+literal "true"
+
+\end_inset
+
+ blablabla
+\end_layout
+
+\begin_layout Itemize
+Segundo os autores 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "SL-latex-companion,SL-latex-demo,SL-latex-donald,SL-latex-Guide2e,SL-latex-lamport,SL-latex-lyxEF"
+literal "true"
+
+\end_inset
+
+ blablabla
+\end_layout
+
+\begin_layout Itemize
+[Analisar criteriosamente e criticamente os resultados obtidos, de forma
+ a indicar correções e sugestões de novos trabalhos.]
+\end_layout
+
+\begin_layout Itemize
+[Todas as figuras devem ser comentadas e analisadas, não pode ter figura
+ solta, não referenciada no texto e não comentada.]
+\end_layout
+
+\begin_layout Itemize
+[Todas tabela deve ser comentada e analisada, não pode ter tabela solta,
+ não referenciada e não comentada.]
+\end_layout
+
+\begin_layout Itemize
+[As análises devem ser consistentes, isto é, deve-se adotar um padrão para
+ análise dos resultados.]
+\end_layout
+
+\begin_layout Itemize
+[Se todas as análises apontam para uma tendência, você pode tentar generalizar
+ o resultado.
+ Mas sempre destacando (deixando claro), que sua conclusão/generalização
+ é para os casos estudados, e que novas análises precisam ser feitas.]
+\end_layout
+
+\begin_layout Itemize
+[É comum o aluno levantar uma grande quantidade de resultados e depois ficar
+ com medo de colocar claramente os mesmos e suas conclusões.
+ Confira os dados de entrada, as hipóteses adotadas, os resultados obtidos,
+ e não tenha medo de afirmar o que esta vendo.]
+\end_layout
+
+\begin_layout Itemize
+[O que não pode é inventar conclusões que não estão de acordo com os dados/resul
+tados.
+\end_layout
+
+\begin_layout Section
+Leituras
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset citation
+LatexCommand cite
+key "adb-prog-livroCpp"
+literal "true"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset citation
+LatexCommand cite
+key "prog-UML-blaha"
+literal "true"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset citation
+LatexCommand cite
+key "prog-UML-Rumbaugh"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusões
+\end_layout
+
+\begin_layout Standard
+[Agora, descreva em detalhes as conclusões do trabalho.....].
+ 
+\end_layout
+
+\begin_layout Itemize
+[É uma síntese conclusiva de tudo o que foi feito.
+ ]
+\end_layout
+
+\begin_layout Itemize
+[Deve relembrar o escopo do trabalho, o método, os dados e equipamentos
+ utilizados.
+ ]
+\end_layout
+
+\begin_layout Itemize
+[Deve esclarecer os pontos principais do trabalho, os resultados a que se
+ chegou.
+ ]
+\end_layout
+
+\begin_layout Itemize
+[Deve responder as perguntas da introdução.
+ Falar dos modelos/algoritmos desenvolvidos, dos problemas resolvidos e
+ resultados obtidos.
+ ]
+\end_layout
+
+\begin_layout Itemize
+[Deve corroborar os resultados com dados estatísticos, com comparações com
+ outros trabalhos.]
+\end_layout
+
+\begin_layout Itemize
+[Deve concluir se as hipóteses foram "rejeitadas" ou "não foram rejeitadas".
+ Nunca dizemos que as hipóteses foram aceitas.]
+\end_layout
+
+\begin_layout Itemize
+[Deve finalizar e arrematar o trabalho de forma segura.]
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "bibliografia"
+options "apalike"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Título do Apêndice - 
+\end_layout
+
+\begin_layout Standard
+Descreve-se neste apêndice ...
+\end_layout
+
+\begin_layout Standard
+Descreve-se neste apêndice ...
+\end_layout
+
+\begin_layout Itemize
+Tudo aquilo que for importante para a tese mas não essencial, deve ser colocado
+ em apêndices.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Pegue todo aquele material do tipo "encher linguíça" e coloque aqui.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Deixar no meio do texto principal da monografia/tese material que não é
+ fundamental ao trabalho, seu desenvolvimento científico, só enche o saco
+ do orientador e leitores.
+ Na prática o aluno perde ponto!
+\end_layout
+
+\end_inset
+
+ Como exemplo, revisão de metodologias, técnicas, modelos matemáticos, ítens
+ desenvolvidos por terceiros.
+ 
+\end_layout
+
+\begin_layout Itemize
+Algoritmos e programas extensos devem ser colocados no apêndice, assim como
+ imagens de programas desenvolvidos/utilizados se forem muitas.
+ No capítulo de metodologia coloca-se apenas uma imagem ilustrativa do programa,
+ se for mostrar várias imagens e sequências, coloque no apêndice.
+\end_layout
+
+\begin_layout Itemize
+Os anexos ou apêndices contém material auxiliar.
+ Por exemplo, tabelas, gráficos, resultados de experimentos, algoritmos,
+ códigos e simulações.
+\end_layout
+
+\begin_layout Itemize
+Um apêndice pode incluir assuntos mais gerais (geral demais para estar no
+ núcleo do trabalho) ou mais específicos (detalhado demais para estar no
+ núcleo do trabalho).
+\end_layout
+
+\begin_layout Itemize
+Pode conter um artigo de auxílio fundamental ao trabalho.
+ 
+\end_layout
+
+\begin_layout Itemize
+Pode conter artigos publicados.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Todo material auxiliar, não diretamente relacionado ao trabalho deve estar
+ nos apêndices!
+\end_layout
+
+\begin_layout Plain Layout
+Ou seja, nos capítulos COLOCAR SOMENTE MATERIAL DIRETAMENTE RELACIONADO
+ AO SEU TRABALHO!
+\end_layout
+
+\begin_layout Plain Layout
+Isto faz com a linha de raciocínio se desenvolva naturalmente, fazendo com
+ que a leitura do material fique gostosa.
+\end_layout
+
+\begin_layout Plain Layout
+Um documento que tem layout e formatação adequada (como este modelo - não
+ mude!), e cuja leitura é fluida (gostosa), é meio caminho andado para uma
+ boa defesa.
+\end_layout
+
+\begin_layout Plain Layout
+Some aí um bom documento de apresentação, com apresentação bem ensaiada,
+ e teremos 50% do sucesso garantido.
+ Os outros 50% referem-se a importância e qualidade do trabalho desenvolvido!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Exemplos de figuras/tabelas
+\end_layout
+
+\begin_layout Standard
+A função autocorrelação é definida pela relação,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C(\mathbf{u})=\left\langle \left[FF(\mathbf{x})\right]\left[FF(\mathbf{x}+\mathbf{u})\right]\right\rangle \label{eq_correlacao-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 
+\series bold
+u
+\series default
+ é o vetor deslocamento.
+ Observe que a função autocorrelação fornece a probabi\SpecialChar softhyphen
+li\SpecialChar softhyphen
+dade de intersecção
+ na direção 
+\series bold
+u
+\series default
+ de dois pontos na fase porosa separados pela distância 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $|\mathbf{u}|$
+\end_inset
+
+
+\emph on
+.
+
+\emph default
+ A função 
+\emph on
+autocovariância normalizada
+\emph default
+ é dada por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R(\mathbf{u})=\frac{\left\langle \left[FF(\mathbf{x})-\varepsilon\right]\left[FF(\mathbf{x}+\mathbf{u})-\varepsilon\right]\right\rangle }{\left(\varepsilon-\varepsilon^{2}\right)}\label{eq_autocovariancia-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Figure: Função autocorrelação normal e determinada usando FFT2"
+
+\end_inset
+
+ compara-se a função autocorrelação obtida com o uso da transformada de
+ Fourier e de método de interpolação, com aquela obtida pelo método tradicional
+ nas direções x e y.
+ Observa-se que com o uso da transformada de Fourier, as flutuações são
+ reduzidas.
+ Definições da transformada de Fourier aplicadas aos problemas da análise
+ de imagem são encontradas em Gonzalez e Woods (1992), Castleman (1979),
+ Parker (1997) e Liang 
+\emph on
+et al
+\emph default
+.(1998).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\align center
+\begin_inset Graphics
+	filename imagens/Figura-Titulo.jpg
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Função autocorrelação nas direções x e y, e determinada usando FFT.
+\begin_inset CommandInset label
+LatexCommand label
+name "Figure: Função autocorrelação normal e determinada usando FFT2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Titulo da Tabela
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Titulo-da-Tabela"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+y
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+z
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+123
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+435
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+456
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+345
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+423
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2342
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
